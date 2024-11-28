@@ -19,12 +19,12 @@ const Hero: React.FC = () => {
       <Row>
         <Col>
           {/* Add a centered image */}
-          <div className="mb-4">
+          <div style={{ position: "relative", width: "50%", margin: "0 auto" }}>
             <Image 
               src="/assets/construction.png" 
               alt="Under Construction" 
-              width={500} 
-              style={{ height: "auto", margin: "0 auto" }} 
+              fill 
+              style={{ objectFit: "contain" }} 
             />
           </div>
           <h1 className="display-5 fw-bold text-white mb-4">
