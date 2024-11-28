@@ -17,10 +17,14 @@ const Hero: React.FC = () => {
         <Row>
           <Col>
             <h1 className="display-5 fw-bold text-white mb-4">
-              Consulting Solutions Tailored for Your Business
+              Neo Automate Blog
             </h1>
             <p className="lead mb-4 text-white">
-              We provide expert advice and automation solutions to help streamline your business processes. Let us guide you to success.
+            Our blog is all about helping you work smarter, not harder, by exploring productivity tools and strategies in Business Process Automation.
+
+            We&apos;re currently under construction, but we&apos;re working behind the scenes to bring you insightful content and practical tips to streamline your workflows.
+
+            Check back soon for updates—we&apos;re excited to help you transform the way you work!
             </p>
             <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
               {/* Explore Services Button */}
