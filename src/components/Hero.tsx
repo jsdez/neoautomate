@@ -21,9 +21,9 @@ const Hero: React.FC = () => {
             </h1>
             <p className="lead mb-4 text-white">
             Our blog is all about helping you work smarter, not harder, by exploring productivity tools and strategies in Business Process Automation.
-
+            <br></br>
             We&apos;re currently under construction, but we&apos;re working behind the scenes to bring you insightful content and practical tips to streamline your workflows.
-
+            <br></br>
             Check back soon for updates—we&apos;re excited to help you transform the way you work!
             </p>
             <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
