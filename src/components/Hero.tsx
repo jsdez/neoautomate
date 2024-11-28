@@ -1,6 +1,7 @@
 import { Container, Row, Col, Button } from "react-bootstrap";
-import Link from "next/link"; // Make sure this import is included
-import ContactOffcanvas from "./ContactOffcanvas"; // Import the ContactOffcanvas component
+import Link from "next/link";
+import Image from 'next/image';
+import ContactOffcanvas from "./ContactOffcanvas";
 
 const Hero: React.FC = () => {
   return (
@@ -13,37 +14,48 @@ const Hero: React.FC = () => {
         paddingBottom: "20px", // Optional, if you want some space below the content
       }}
     >
-      <Container className="text-center">
-        <Row>
-          <Col>
-            <h1 className="display-5 fw-bold text-white mb-4">
-              Neo Automate Blog
-            </h1>
-            <p className="lead mb-4 text-white">
+
+    <Container className="text-center">
+      <Row>
+        <Col>
+          {/* Add a centered image */}
+          <div className="mb-4">
+            <Image 
+              src="/assets/Construction.png" 
+              alt="Under Construction" 
+              width={300} 
+              height={300} 
+              style={{ margin: "0 auto" }} // Centering
+            />
+          </div>
+          <h1 className="display-5 fw-bold text-white mb-4">
+            Under Construction
+          </h1>
+          <p className="lead mb-4 text-white">
             Our blog is all about helping you work smarter, not harder, by exploring productivity tools and strategies in Business Process Automation.
             <br></br>
             We&apos;re currently under construction, but we&apos;re working behind the scenes to bring you insightful content and practical tips to streamline your workflows.
             <br></br>
             Check back soon for updates—we&apos;re excited to help you transform the way you work!
-            </p>
-            <div className="d-none gap-2 d-sm-flex justify-content-sm-center">
-              {/* Explore Services Button */}
-              <Link href="/services" passHref>
-                <Button className="btn-neo-primary btn-lg px-4 gap-3">
-                  Explore Our Services
-                </Button>
-              </Link>
+          </p>
+          <div className="d-none gap-2 d-sm-flex justify-content-sm-center">
+            {/* Explore Services Button */}
+            <Link href="/services" passHref>
+              <Button className="btn-neo-primary btn-lg px-4 gap-3">
+                Explore Our Services
+              </Button>
+            </Link>
 
-              {/* Get in Touch Button triggers the offcanvas */}
-              <ContactOffcanvas>
-                <Button className="btn-neo-secondary-outline btn-lg px-4">
-                  Get in Touch
-                </Button>
-              </ContactOffcanvas>
-            </div>
-          </Col>
-        </Row>
-      </Container>
+            {/* Get in Touch Button triggers the offcanvas */}
+            <ContactOffcanvas>
+              <Button className="btn-neo-secondary-outline btn-lg px-4">
+                Get in Touch
+              </Button>
+            </ContactOffcanvas>
+          </div>
+        </Col>
+      </Row>
+    </Container>
 
       {/* Static Wave with Thicker Middle */}
       <div className="wave-container position-absolute bottom-0 start-0 w-100" style={{ marginBottom: "-5px" }}>
