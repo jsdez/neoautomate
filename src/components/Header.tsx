@@ -35,7 +35,7 @@ const Header: React.FC = () => {
           </button>
 
           {/* Navbar Links */}
-          <div className="d-none collapse navbar-collapse" id="navbarNav">
+          <div className="d-none" id="navbarNav"> {/*  collapse navbar-collapse */}
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
                 <Link href="/" className="nav-link active" aria-current="page">
