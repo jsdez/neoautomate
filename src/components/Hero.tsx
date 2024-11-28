@@ -38,7 +38,7 @@ const Hero: React.FC = () => {
             Check back soon for updates—we&apos;re excited to help you transform the way you work!
           </p>
           <div className="d-none">
-          {/* gap-2 d-sm-flex justify-content-sm-center */}
+          {/* gap-2 d-sm-flex justify-content-sm-center*/}
             {/* Explore Services Button */}
             <Link href="/services" passHref>
               <Button className="btn-neo-primary btn-lg px-4 gap-3">
