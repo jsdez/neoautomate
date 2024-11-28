@@ -11,7 +11,7 @@ const Hero: React.FC = () => {
         background:
           "linear-gradient(180deg, hsla(260, 84%, 51%, 1) 0%, hsla(320, 32%, 50%, 1) 100%)",
         minHeight: "95vh",
-        paddingBottom: "20px", // Optional, if you want some space below the content
+        paddingBottom: "20px",
       }}
     >
 
