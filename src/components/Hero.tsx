@@ -21,7 +21,7 @@ const Hero: React.FC = () => {
           {/* Add a centered image */}
           <div className="mb-4">
             <Image 
-              src="/assets/Construction.png" 
+              src="/assets/construction.png" 
               alt="Under Construction" 
               width={500} 
               style={{ height: "auto", margin: "0 auto" }} 
