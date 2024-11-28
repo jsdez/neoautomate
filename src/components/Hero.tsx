@@ -23,9 +23,8 @@ const Hero: React.FC = () => {
             <Image 
               src="/assets/Construction.png" 
               alt="Under Construction" 
-              width={300} 
-              height={300} 
-              style={{ margin: "0 auto" }} // Centering
+              width={500} 
+              style={{ height: "auto", margin: "0 auto" }} 
             />
           </div>
           <h1 className="display-5 fw-bold text-white mb-4">
