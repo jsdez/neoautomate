@@ -18,7 +18,6 @@ const Hero: React.FC = () => {
     <Container className="text-center">
       <Row>
         <Col>
-          {/* Add a centered image */}
           <div className="mb-4">
             <Image 
               src="/assets/construction.png" 
