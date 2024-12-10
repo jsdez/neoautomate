@@ -2,6 +2,7 @@ source "https://rubygems.org"
 
 # Use the GitHub Pages gem, which manages Jekyll and its dependencies
 gem "github-pages", group: :jekyll_plugins
+gem "jekyll-include-cache", group: :jekyll_plugins
 
 # Add any additional plugins you need here
 group :jekyll_plugins do
@@ -16,3 +17,8 @@ end
 
 # Performance booster for watching directories on Windows
 gem "wdm", "~> 0.1", platforms: [:mingw, :x64_mingw, :mswin]
+
+gem "jekyll-remote-theme"
+gem "jekyll-paginate"
+gem "jekyll-sitemap"
+gem "jekyll-seo-tag"
