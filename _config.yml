@@ -18,16 +18,17 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: NEO Automate
+email: info@neoautomate.com
+description: >
+  Professional consulting services focused on process automation for GRC, finance, and regulated sectors.
+  Leveraging deep expertise in Nintex, SharePoint, and Salesforce, I help organisations streamline operations,
+  ensure compliance, and drive efficiency through tailored automation solutions. Whether you're looking to optimise
+  workflows, implement governance frameworks, or transform your digital processes, I provide the tools and
+  strategies to achieve impactful results.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://neoautomate.com" # the base hostname & protocol for your site, e.g. http://example.com
+github_username: jsdez
 
 # Build settings
 theme: minima
