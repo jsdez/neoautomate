@@ -70,3 +70,8 @@ $success: #7952b3;
   .btn-neo-secondary-outline:focus, .btn-neo-secondary-outline.focus {
     box-shadow: 0 0 0 0.25rem rgba(248, 155, 41, 0.5); /* Focus effect */
   }
+
+  .lead {
+    line-height: 1.6; /* Improves vertical spacing */
+  }
+  

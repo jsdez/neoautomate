@@ -19,24 +19,25 @@ const Hero: React.FC = () => {
       <Row>
         <Col>
           {/* Add a centered image */}
-          <div className="mb-4">
+          <div style={{ position: "relative", width: "80%", height: "300px", margin: "0 auto" }}>
             <Image 
               src="/assets/construction.png" 
               alt="Under Construction" 
-              width={500} 
-              style={{ height: "auto", margin: "0 auto" }} 
+              fill 
+              style={{ objectFit: "contain" }} 
             />
           </div>
           <h1 className="display-5 fw-bold text-white mb-4">
             Under Construction
           </h1>
-          <p className="lead mb-4 text-white">
-            Our blog is all about helping you work smarter, not harder, by exploring productivity tools and strategies in Business Process Automation.
-            <br></br>
-            We&apos;re currently under construction, but we&apos;re working behind the scenes to bring you insightful content and practical tips to streamline your workflows.
-            <br></br>
-            Check back soon for updates—we&apos;re excited to help you transform the way you work!
-          </p>
+          <div className="text-white text-center">
+            <p className="lead mb-3">
+              We&apos;re currently under construction, but we&apos;re working behind the scenes to bring you insightful content and practical tips to streamline your workflows.
+            </p>
+            <p className="lead">
+              Check back soon for updates—we&apos;re excited to help you transform the way you work!
+            </p>
+          </div>
           <div className="d-none">
           {/* gap-2 d-sm-flex justify-content-sm-center */}
             {/* Explore Services Button */}

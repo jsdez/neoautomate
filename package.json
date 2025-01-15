@@ -4,7 +4,6 @@
   "private": true,
   "repository": "neoautomate",
   "license": "MIT",
-  "homepage": "https://neoautomate.com",
   "stackblitz": {
     "startCommand": "npm start"
   },
